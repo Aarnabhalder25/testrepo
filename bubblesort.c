@@ -14,6 +14,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
+    // here are the values to be sorted
     int arr[] = {64,32,45,1,2,5, 34, 25, 12, 22, 11, 90};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
